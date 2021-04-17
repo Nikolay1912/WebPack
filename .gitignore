@@ -3,6 +3,9 @@
 .idea
 .vscode
 
+#npm
+package-lock.json
+
 # Node
 node_modules
 
