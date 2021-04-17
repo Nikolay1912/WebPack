@@ -2,4 +2,32 @@
 @import 'utils/vars';
 @import 'utils/mixins';
 @import 'utils/fonts';
-// @import 'utils/reset';
+// @import 'utils/reset'; 
+
+.wrap {
+	display: grid;
+	grid-template-columns: 104px auto;
+}
+.panel {
+	height: 100px;
+	background: #1F1D2B;
+	border-radius: 16px;
+	margin-right: -15px;
+	z-index: 1;
+	text-align: center;
+	padding: 24px 0;
+}
+
+.logo {
+	background: #543C3C;
+	border-radius: 12px;
+	display: inline-block;
+	padding: 11.33px;
+}
+
+
+
+
+.content {
+	background-color: #252836;
+}
