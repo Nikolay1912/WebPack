@@ -29,3 +29,21 @@
 .content {
 	background-color: #252836;
 }
+
+.nav {
+	&__list {
+		list-style-type: none;
+	}
+
+	&__item {
+
+	}
+
+	&__link {
+		text-decoration: none;
+	}
+
+	&__image {
+
+	}
+}
