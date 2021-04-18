@@ -5,16 +5,41 @@
 // @import 'utils/reset'; 
 
 
+// .active
 .active > a {
 	background-color: #282937;
 }
 
-.active .nav__image {
-	padding: 16px;
+.active .nav__img {
 	background: #EA7C69;
 	box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
-	border-radius: 8px;
 }
+
+.active .nav__img--1 {
+	fill: #fff;
+}
+
+.active .nav__img--2 {
+	fill: #fff;
+}
+
+.active .nav__img--3 {
+	fill: #fff;
+}
+
+.active .nav__img--4 {
+	fill: #fff;
+}
+
+.active .nav__img--5 {
+	fill: #fff;
+}
+
+.active .nav__img--6 {
+	fill: #fff;
+}
+// .active
+
 
 
 .wrap {
@@ -66,15 +91,53 @@
 		background-color: #282937;
 	}
 
-	&__link:hover &__image {
-		padding: 16px;
+	&__link:hover &__img {
 		background: #EA7C69;
 		box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
-		border-radius: 8px;
 	}
 
-	&__image {
+	&__link:hover &__img--2 {
+		fill: #fff;
+	}
+
+	&__link:hover &__img--3 {
+		fill: #fff;
+	}
+
+	&__link:hover &__img--4 {
+		fill: #fff;
+	}
+
+	&__link:hover &__img--5 {
+		fill: #fff;
+	}
+
+	&__link:hover &__img--6 {
+		fill: #fff;
+	}
+
+	&__img {
 		padding: 16px;
 		border-radius: 8px;
+
+		&--2 {
+			fill: #EA7C69;
+		}
+
+		&--3 {
+			fill: #EA7C69;
+		}
+
+		&--4 {
+			fill: #EA7C69;
+		}
+
+		&--5 {
+			fill: #EA7C69;
+		}
+
+		&--6 {
+			fill: #EA7C69;
+		}
 	}
 }
